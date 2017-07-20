@@ -2,13 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>DriveCMS</title>
+  <title>TarmaCMS</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="http://www.tarmac.io/favicon.ico">
 </head>
 <body>
   <app-root></app-root>
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDD9y6m6jhtpqci_acH0Cri5Gvdf1gj5SM",
+    authDomain: "tarmac-e814e.firebaseapp.com",
+    databaseURL: "https://tarmac-e814e.firebaseio.com",
+    projectId: "tarmac-e814e",
+    storageBucket: "tarmac-e814e.appspot.com",
+    messagingSenderId: "199080726497"
+  };
+  firebase.initializeApp(config);
+</script>
 </html>
